@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap');
+:root{--primary:#1a1a2e;--accent:#e94560;--gold:#f5a623;--teal:#0f3460;--light:#f8f6f0;--white:#ffffff;--muted:#6b7280;--border:#e5e7eb;--success:#10b981;--radius:14px;--shadow:0 4px 24px rgba(26,26,46,.10);}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'DM Sans',sans-serif;background:var(--light);color:var(--primary);}
+a{text-decoration:none;color:inherit;}
+button{cursor:pointer;font-family:inherit;}
+input,select,textarea{font-family:inherit;outline:none;}
+.btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;border-radius:8px;font-size:14px;font-weight:600;border:none;cursor:pointer;transition:all .2s;text-decoration:none;}
+.btn-primary{background:var(--accent);color:#fff;}
+.btn-primary:hover{background:#c73652;}
+.btn-outline{background:transparent;border:1.5px solid var(--border);color:var(--primary);}
+.btn-outline:hover{background:var(--light);}
+.btn-gold{background:var(--gold);color:var(--primary);}
+.btn-gold:hover{background:#e09520;}
+.card{background:var(--white);border-radius:var(--radius);padding:1.5rem;border:1px solid var(--border);}
+.tag{display:inline-block;font-size:11px;padding:2px 10px;border-radius:20px;font-weight:500;}
+.tag-teal{background:#e0f2f1;color:#00796b;}
+.tag-blue{background:#e3f2fd;color:#1565c0;}
+.tag-pink{background:#fce4ec;color:#c62828;}
+.tag-green{background:#ecfdf5;color:#065f46;}
+.stars{color:var(--gold);font-size:13px;}
+.avatar{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:#fff;flex-shrink:0;}
+.status-pill{font-size:11px;padding:3px 10px;border-radius:20px;font-weight:600;}
+.status-active{background:#ecfdf5;color:#065f46;}
+.status-pending{background:#fef3c7;color:#92400e;}
+.status-completed{background:#ede9fe;color:#5b21b6;}
+.status-cancelled{background:#fee2e2;color:#991b1b;}
+.progress-bar{background:var(--light);border-radius:99px;height:8px;overflow:hidden;}
+.progress-fill{height:100%;border-radius:99px;background:var(--accent);}
